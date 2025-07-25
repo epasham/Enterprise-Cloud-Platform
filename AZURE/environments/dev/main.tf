@@ -6,9 +6,8 @@ locals {
   sku = "Standard"
 
   tags = {
-    Owner      = "infy"
-    Env        = "dev"
-    Department = "IT"
+    wwner      = "infy"
+    env        = "dev"
   }
 }
 
