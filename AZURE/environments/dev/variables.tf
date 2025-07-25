@@ -37,3 +37,9 @@ variable "resource_group_location" {
   type        = string
   description = "The location of the Azure resource group."
 }
+
+variable "acr_enabled" {
+  type        = bool
+  default     = true
+  description = "enable the acr deployment."
+}
